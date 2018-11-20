@@ -10,6 +10,7 @@ import { SouthAmericaComponent } from './south-america/south-america.component';
 import { NorthAmericaComponent } from './north-america/north-america.component';
 import { AustraliaComponent } from './australia/australia.component';
 import { AntarcticaComponent } from './antarctica/antarctica.component';
+import { WorldComponent } from './world/world.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +22,8 @@ import { AntarcticaComponent } from './antarctica/antarctica.component';
     SouthAmericaComponent,
     NorthAmericaComponent,
     AustraliaComponent,
-    AntarcticaComponent
+    AntarcticaComponent,
+    WorldComponent
   ],
   imports: [
     BrowserModule
